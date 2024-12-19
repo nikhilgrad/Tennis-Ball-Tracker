@@ -4,7 +4,6 @@ import cv2
 import pandas as pd
 
 class BallTracker:
-    # ... (rest of the BallTracker class)
 
     def __init__(self,model_path):
         self.model = YOLO(model_path)
@@ -58,7 +57,7 @@ def read_video(video_path):
     """Reads a video file and returns a list of frames.
 
     Args:
-        video_path (str): Path to the video file.
+        video_path: Expects a string. Path to the video file.
 
     Returns:
         list: A list of frames, where each frame is a NumPy array.
@@ -82,8 +81,8 @@ def save_video(frames, output_path, fps=30):
     """Saves a list of frames as a video file.
 
     Args:
-        frames (list): A list of frames, where each frame is a NumPy array.
-        output_path (str): Path to the output video file.
+        frames : A list of frames, where each frame is a NumPy array.
+        output_path : It is a string which gives path to the output video file.
         fps (int, optional): Frames per second of the output video. Defaults to 30.
     """
 
