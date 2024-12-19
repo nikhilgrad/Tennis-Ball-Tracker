@@ -51,11 +51,11 @@ from ultralytics import YOLO
 
 Place the model file in the models directory.
 
-1. **Prepare the input video:** Place your input video file (e.g., input_video1.mp4) in the input_files directory.
+1. **Prepare the input video:** Place your input video file in the input_files directory.
 
 2. **Run the script:** Execute the predict.py script.
 
-3. **Output:** The processed video with bounding boxes and frame numbers will be saved in the saved_outputs directory as output_video.avi
+3. **Output:** The processed video with bounding boxes and frame numbers will be saved in the saved_outputs directory.
 
 
 ## Everything in a Nutshell
