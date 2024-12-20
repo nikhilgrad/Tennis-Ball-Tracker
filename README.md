@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/41a16a84-4800-4f29-847f-3df619fd42da
 
 *Output without interpolation*
 
-This output is unable to track the ball during some of the instances like when the ball crosses the net. To solve this we created the interpolation function, that the track the ball in this instances by interpolating the current position using the previous and next detected positions.
+This output is unable to track the ball during some of the instances like when the ball crosses the net. To solve this we created the interpolation function, that tracks the ball during this instances by interpolating the current position using the previous and next detected positions.
 
 ## Installation and Training
 
